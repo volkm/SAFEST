@@ -1,13 +1,17 @@
-# SAFEST
+# SAFEST - the Static And dynamic Fault trEe analySis Tool
 
-A graphical interface to interact with storm dft. 
+SAFEST provides modelling and analysis of fault trees and supports both static fault trees (SFT) and dynamic fault trees (DFT).
+The tool uses the Storm-dft library of the [Storm modelchecker](https://www.stormchecker.org/) in its backend.
+
+## Dependencies
+Make sure that [Docker](https://www.docker.com/) is installed on your computer and is currently running.
+
+SAFEST is known to work with the following browsers:
+- Google Chrome
+- Firefox
 
 
-# To run the tool:
-
-Make sure you have already installed docker on your computer and is currently running. 
-
-Supported browsers: Google Chrome
+## Running SAFEST:
 
 Step 1: Clone the repository.
 
@@ -36,4 +40,3 @@ docker compose up
 Step 4: Open link 
 
 - http://127.0.0.1:8080
-
