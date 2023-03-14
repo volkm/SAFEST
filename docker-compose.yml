@@ -32,8 +32,8 @@ services:
     ports:
       - 8000:8000
     volumes:
-      - $WORK_DIR:/home/projects
-      # For Window #- ./projects:/home/projects
+      #- $WORK_DIR:/home/projects
+      - ./projects:/home/projects
     environment:
       STORMPY_SERVICE_HOST: stormpy-service-api
       STORMPY_SERVICE_PORT: 8001
